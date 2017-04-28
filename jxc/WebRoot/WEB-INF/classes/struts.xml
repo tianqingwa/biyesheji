@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3dtd">
+<struts>
+
+	<!-- 开发者模式 -->
+	<constant name="struts.devMode" value="false" />
+	
+	<!-- 全局异常映射 -->
+	<package name="jxc" extends="struts-default">
+        <global-results>
+            <result name="error">/statics/html/error/500.html</result>
+        </global-results>
+        <global-exception-mappings>
+            <exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+        </global-exception-mappings>
+    </package>
+	
+	
+	<package name="server" namespace="/server" extends="jxc">
+	
+		<!-- 主页跳转 -->
+		<action name="index" class="com.java.jxc.action.UserAction" method="index">
+			<result name="error">/dynamic/server/view/login.jsp</result>
+			<result name="success" type="redirect">/dynamic/server/view/index.jsp</result>
+		</action>
+		
+		<action name="logout" class="com.java.jxc.action.UserAction" method="logout">
+			<result name="logout">/dynamic/server/view/login.jsp</result>
+		</action>
+		
+		<!-- 用户模块 -->
+		<action name="user" class="com.java.jxc.action.UserAction">
+		</action>
+		
+		<!-- 商品模块 -->
+		<action name="goods" class="com.java.jxc.action.GoodsAction">
+		</action>
+		
+		<!-- 数据字典模块 -->
+		<action name="dictionary" class="com.java.jxc.action.DictionaryAction">
+		</action>	
+		
+		<!-- 进货单模块 -->
+		<action name="jinhuo" class="com.java.jxc.action.JinhuoAction">
+		</action>	
+		
+		<!-- 出货单模块 -->
+		<action name="chuhuo" class="com.java.jxc.action.ChuhuoAction">
+		</action>			
+		
+		<!-- 库存模块 -->
+		<action name="kucun" class="com.java.jxc.action.KucunAction">
+		</action>					
+		
+	</package>
+
+</struts>

@@ -1,0 +1,104 @@
+#container {
+	width: 1162px;
+	height: 803px;
+	margin: auto;
+}
+
+#form {
+	width: 426px;
+	height: 350px;
+	background-image: url(/static/skin/server/images/login/form.gif);
+	position: relative;
+	float: right;
+	margin-top: 30px;
+	margin-right: 160px;
+}
+
+#descr {
+	width: 180px;
+	height: 20px;
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	margin-left: 105px;
+}
+
+#content {
+	width: 350px;
+	height: 250px;
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+#bg_01 {
+	width: 289px;
+	height: 628px;
+	background-image: url(/static/skin/server/images/login/bg_01.gif);
+	float: left;
+}
+
+#bg_02 {
+	width: 260px;
+	height: 628px;
+	background-image: url(/static/skin/server/images/login/bg_02.gif);
+	float: left;
+}
+
+#bg_03_container {
+	width: 613px;
+	height: 628px;
+	float: left;
+}
+
+#bg_03 {
+	width: 613px;
+	height: 206px;
+	background-image: url(/static/skin/server/images/login/bg_03.gif);
+	float: left;
+}
+
+#bg_04 {
+	width: 613px;
+	height: 422px;
+	background-image: url(/static/skin/server/images/login/bg_04.gif);
+	float: left;
+}
+
+#bg_05 {
+	width: 1162px;
+	height: 175px;
+	background-image: url(/static/skin/server/images/login/bg_05.gif);
+	float: left;
+}
+
+#login {
+	border: 1px solid #AAA;
+	padding: 4px;
+	float: left;
+	margin-left: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: pointer;
+	width: 37px;
+	height: 39px;
+	background: url(/static/skin/server/images/login/login.gif) no-repeat
+		center;
+	border: 0px;
+}
+
+#reset {
+	border: 1px solid #AAA;
+	padding: 4px;
+	float: left;
+	margin-left: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: pointer;
+	width: 37px;
+	height: 39px;
+	background: url(/static/skin/server/images/login/reset.gif) no-repeat
+		center;
+	border: 0px;
+}
