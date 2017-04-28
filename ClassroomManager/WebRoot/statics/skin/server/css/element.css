@@ -1,0 +1,103 @@
+
+input, select, textarea {
+	display: block;
+	margin-bottom: 5px;
+}
+.text-label {
+	color: #666666;
+}
+.text-a {
+	text-decoration: none;
+}
+.text-input {
+	width: 150px;
+	color: #666666;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+}
+
+.text-select {
+	color: #666666;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+}
+
+.input-onfocus {
+	border: 1px solid #727796;
+}
+
+
+
+.textarea-input {
+	width: 250px;
+	height: 70px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+}
+
+.text-input2 {
+	width: 100px;
+	color: #666666;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+}
+
+.text-input3 {
+	width: 150px;
+	color: #666666;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+}
+
+.infos {
+	background: #FFF;
+	color: #333;
+	font-size: 12px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.checkbox {
+	display: inline;
+	border: 0px;
+}
+.subBox{
+	display: inline;
+	border: 0px;
+}
+
+.submit {
+	border: 1px solid #AAA;
+	padding: 4px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.fc-error {
+	width: 350px;
+	color: 555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 12px;
+	margin-bottom: 15px;
+	background: #FFEAEA;
+}
